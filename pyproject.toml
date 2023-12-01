@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rates"
+version = "0.0.3"
+authors = [
+  { name="Vivien Cabannes", email="vivien.cabannes@gmail.com" },
+]
+description = "Research library to study empirical convergence rates."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "matplotlib",
+    "numba",
+    "numpy",
+    "scipy",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/VivienCabannes/rates"
+"Bug Tracker" = "https://github.com/VivienCabannes/rates/issues"

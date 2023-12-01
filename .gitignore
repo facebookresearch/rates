@@ -1,0 +1,17 @@
+
+.DS_Store
+
+dist/ 
+*.egg-info
+*__pycache__
+
+logs/
+launchers/
+savings/
+
+*.npy
+*.pdf
+*.jpg
+
+scripts/samples_for_smoothness/plots/old
+scripts/samples_for_smoothness/*.ipynb
